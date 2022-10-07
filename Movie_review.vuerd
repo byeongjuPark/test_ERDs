@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollLeft": -1,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -49,7 +49,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "fc85bb4d-7c97-4bc1-a4d0-56e4d57ff9f5"
@@ -72,7 +72,7 @@
           {
             "name": "REVIEW_NAME",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 90.40380859375,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "822e584d-590b-40ae-917a-123d0612655d"
@@ -95,7 +95,7 @@
           {
             "name": "COMMENT",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -110,7 +110,7 @@
               "pfk": false,
               "widthName": 67.5712890625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "5f64f7c2-a9c8-4f25-90fc-53ac5722724a"
@@ -118,7 +118,7 @@
           {
             "name": "CREATED_DATE",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 91.34326171875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "ba6b04ad-ee32-4696-8731-884a76fb8fbd"
@@ -141,7 +141,7 @@
           {
             "name": "STAR_POINT",
             "comment": "",
-            "dataType": "",
+            "dataType": "INTEAGER",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -156,7 +156,7 @@
               "pfk": false,
               "widthName": 74.8330078125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 61.33154296875,
               "widthDefault": 60
             },
             "id": "7825e45e-6f77-4685-8d90-a4da628bf48e"
@@ -165,8 +165,8 @@
         "ui": {
           "active": false,
           "left": 101,
-          "top": 28,
-          "zIndex": 187,
+          "top": 29,
+          "zIndex": 30,
           "widthName": 60,
           "widthComment": 60
         },
@@ -180,7 +180,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -195,7 +195,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "e4697786-acd2-48f7-bb0a-b4e0dbaed4d1"
@@ -203,7 +203,7 @@
           {
             "name": "MOVIE_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -218,7 +218,7 @@
               "pfk": false,
               "widthName": 114.861328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "5b9c1b15-9a5e-4cab-ae7b-895b2b39cd95"
@@ -228,7 +228,7 @@
           "active": false,
           "left": 591,
           "top": 35,
-          "zIndex": 167,
+          "zIndex": 25,
           "widthName": 60,
           "widthComment": 60
         },
@@ -242,7 +242,7 @@
           {
             "name": "MOVIE_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -257,7 +257,7 @@
               "pfk": false,
               "widthName": 114.861328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "08e2c9a3-681e-4137-8f9a-e190fd09bf16"
@@ -265,7 +265,7 @@
           {
             "name": "NAME",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -280,7 +280,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "b775c0d7-448c-4ad0-ab47-03d53d584eee"
@@ -290,7 +290,7 @@
           "active": false,
           "left": 591,
           "top": 275,
-          "zIndex": 186,
+          "zIndex": 27,
           "widthName": 71.7353515625,
           "widthComment": 60
         },
@@ -304,7 +304,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -319,7 +319,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "c28d90a7-1251-4a65-903c-c1607d7c1aff"
@@ -327,7 +327,7 @@
           {
             "name": "USERS_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -342,7 +342,7 @@
               "pfk": false,
               "widthName": 112.3095703125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "3eee1b07-9fb5-4520-bfdd-935acf9d7676"
@@ -352,7 +352,7 @@
           "active": false,
           "left": 89,
           "top": 320,
-          "zIndex": 148,
+          "zIndex": 17,
           "widthName": 60,
           "widthComment": 60
         },
@@ -366,7 +366,7 @@
           {
             "name": "USERS_UNIQUE_ID",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -381,7 +381,7 @@
               "pfk": false,
               "widthName": 112.3095703125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "c5f51e2f-329e-4bc7-9fb7-4721c58fb74f"
@@ -389,7 +389,7 @@
           {
             "name": "USER",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -404,7 +404,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "50927680-180a-4583-a7ab-4ccd30b0d607"
@@ -414,7 +414,7 @@
           "active": false,
           "left": 93,
           "top": 546,
-          "zIndex": 183,
+          "zIndex": 19,
           "widthName": 60,
           "widthComment": 60
         },
@@ -438,7 +438,7 @@
           "columnIds": [
             "c5f51e2f-329e-4bc7-9fb7-4721c58fb74f"
           ],
-          "x": 292.65478515625,
+          "x": 307.30126953125,
           "y": 546,
           "direction": "top"
         },
@@ -447,7 +447,7 @@
           "columnIds": [
             "3eee1b07-9fb5-4520-bfdd-935acf9d7676"
           ],
-          "x": 292.56494140625,
+          "x": 307.21142578125,
           "y": 430,
           "direction": "bottom"
         },
@@ -464,8 +464,8 @@
           "columnIds": [
             "fc85bb4d-7c97-4bc1-a4d0-56e4d57ff9f5"
           ],
-          "x": 304.56494140625,
-          "y": 199.5,
+          "x": 319.21142578125,
+          "y": 200.5,
           "direction": "bottom"
         },
         "end": {
@@ -473,7 +473,7 @@
           "columnIds": [
             "c28d90a7-1251-4a65-903c-c1607d7c1aff"
           ],
-          "x": 292.56494140625,
+          "x": 307.21142578125,
           "y": 320,
           "direction": "top"
         },
@@ -490,7 +490,7 @@
           "columnIds": [
             "08e2c9a3-681e-4137-8f9a-e190fd09bf16"
           ],
-          "x": 791.9306640625,
+          "x": 806.5771484375,
           "y": 275,
           "direction": "top"
         },
@@ -499,7 +499,7 @@
           "columnIds": [
             "5b9c1b15-9a5e-4cab-ae7b-895b2b39cd95"
           ],
-          "x": 794.56494140625,
+          "x": 809.21142578125,
           "y": 145,
           "direction": "bottom"
         },
@@ -516,8 +516,8 @@
           "columnIds": [
             "fc85bb4d-7c97-4bc1-a4d0-56e4d57ff9f5"
           ],
-          "x": 508.1298828125,
-          "y": 113.75,
+          "x": 537.4228515625,
+          "y": 114.75,
           "direction": "right"
         },
         "end": {
