@@ -166,7 +166,7 @@
           "active": false,
           "left": 101,
           "top": 28,
-          "zIndex": 181,
+          "zIndex": 187,
           "widthName": 60,
           "widthComment": 60
         },
@@ -236,7 +236,7 @@
         "id": "81a7e61a-2567-4c0f-860d-1fa9873e8912"
       },
       {
-        "name": "영화이름목록",
+        "name": "MOVIE_LIST",
         "comment": "",
         "columns": [
           {
@@ -290,8 +290,8 @@
           "active": false,
           "left": 591,
           "top": 275,
-          "zIndex": 173,
-          "widthName": 80,
+          "zIndex": 186,
+          "widthName": 71.7353515625,
           "widthComment": 60
         },
         "visible": true,

@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -168.5,
-    "scrollLeft": -299,
+    "scrollTop": -3,
+    "scrollLeft": -2,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -105,7 +105,7 @@
         "id": "687b001c-b472-4832-a412-20c220405a82"
       },
       {
-        "name": "대여자",
+        "name": "RENDER",
         "comment": "",
         "columns": [
           {
@@ -159,7 +159,7 @@
           "active": false,
           "left": 863.6125,
           "top": 460.5872,
-          "zIndex": 179,
+          "zIndex": 196,
           "widthName": 60,
           "widthComment": 60
         },
@@ -280,7 +280,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 367.5045,
           "top": 713.7041,
           "zIndex": 193,
