@@ -1,0 +1,339 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "USERS",
+        "comment": "사용자들",
+        "columns": [
+          {
+            "name": "UNIQUE_ID",
+            "comment": "대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 68.87255859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9560d2f9-37e4-463d-8acf-06a316e466c9"
+          },
+          {
+            "name": "NAME",
+            "comment": "이름",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "80407cc2-abad-418e-b76e-e696dc5691ba"
+          },
+          {
+            "name": "EMAIL",
+            "comment": "이메일",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "edf38e52-2fce-437c-8675-8584b91a3634"
+          },
+          {
+            "name": "JOB",
+            "comment": "직책",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7cc82d17-50db-47d5-9a57-53761a759b79"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 104,
+          "top": 160,
+          "zIndex": 136,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c26c1816-f1f0-4bdb-ae27-5f026490f3de"
+      },
+      {
+        "name": "AUTH_NAMES",
+        "comment": "접근권한명",
+        "columns": [
+          {
+            "name": "UNIQUE_ID",
+            "comment": "접근권한 대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 68.87255859375,
+              "widthComment": 97.5703125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "39c6cd50-6de7-4fe2-8181-49bff92b5f85"
+          },
+          {
+            "name": "AUTH_NAME",
+            "comment": "접근권한명",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 78.54638671875,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9596a92d-42e0-430c-b736-94549a8804f0"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 102,
+          "top": 416,
+          "zIndex": 138,
+          "widthName": 85.60498046875,
+          "widthComment": 67
+        },
+        "visible": true,
+        "id": "8507fad7-35e9-4d63-a42f-efebfecd0406"
+      },
+      {
+        "name": "AUTHS",
+        "comment": "권한들",
+        "columns": [
+          {
+            "name": "UNIQUE_ID_USERS",
+            "comment": "대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 112.3095703125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "79f50109-2733-48c8-b46d-4285ba333a83"
+          },
+          {
+            "name": "UNIQUE_ID_AUTH_NAME",
+            "comment": "접근권한 대표값",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 150.9541015625,
+              "widthComment": 97.5703125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fab238e4-59e9-400d-9df1-49dd1a998ee1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 828,
+          "top": 211,
+          "zIndex": 148,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "68c98156-e41b-4796-91cf-31ba04dae973"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "c26c1816-f1f0-4bdb-ae27-5f026490f3de",
+          "columnIds": [
+            "9560d2f9-37e4-463d-8acf-06a316e466c9"
+          ],
+          "x": 459.87255859375,
+          "y": 235.5,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "68c98156-e41b-4796-91cf-31ba04dae973",
+          "columnIds": [
+            "79f50109-2733-48c8-b46d-4285ba333a83"
+          ],
+          "x": 828,
+          "y": 238.5,
+          "direction": "left"
+        },
+        "constraintName": "fk_users_to_auths",
+        "visible": true,
+        "id": "d8cc34f0-9295-4606-a5c6-56d491988c2e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "8507fad7-35e9-4d63-a42f-efebfecd0406",
+          "columnIds": [
+            "39c6cd50-6de7-4fe2-8181-49bff92b5f85"
+          ],
+          "x": 505.11669921875,
+          "y": 471,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "68c98156-e41b-4796-91cf-31ba04dae973",
+          "columnIds": [
+            "fab238e4-59e9-400d-9df1-49dd1a998ee1"
+          ],
+          "x": 828,
+          "y": 293.5,
+          "direction": "left"
+        },
+        "constraintName": "fk_auth_names_to_auths",
+        "visible": true,
+        "id": "e5822a75-4baf-4a26-9060-f83d4e7956d9"
+      }
+    ]
+  }
+}
