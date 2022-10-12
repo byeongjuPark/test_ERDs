@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -6,
-    "scrollLeft": -3,
+    "scrollTop": 0,
+    "scrollLeft": -26,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -44,11 +44,11 @@
     "tables": [
       {
         "name": "INFLUENCES",
-        "comment": "",
+        "comment": "봉사",
         "columns": [
           {
             "name": "NO",
-            "comment": "",
+            "comment": "봉사번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -71,7 +71,7 @@
           },
           {
             "name": "REGION_NO",
-            "comment": "",
+            "comment": "지역번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -93,31 +93,8 @@
             "id": "ffbf7cb4-c90f-4247-86e9-9eb26fa3d8e1"
           },
           {
-            "name": "SPONSOR_NO",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 87.05859375,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "2de0f459-3e15-4159-8469-07e26f5809a9"
-          },
-          {
             "name": "BUSINESS_NO",
-            "comment": "",
+            "comment": "사업번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -140,7 +117,7 @@
           },
           {
             "name": "OFFER_GOODS",
-            "comment": "",
+            "comment": "제공상품",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -163,7 +140,7 @@
           },
           {
             "name": "IS_SPONSOR",
-            "comment": "",
+            "comment": "후원여부",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -189,7 +166,7 @@
           "active": false,
           "left": 55.0044,
           "top": 125.1656,
-          "zIndex": 243,
+          "zIndex": 317,
           "widthName": 75.81689453125,
           "widthComment": 60
         },
@@ -198,11 +175,11 @@
       },
       {
         "name": "REGION",
-        "comment": "",
+        "comment": "지역",
         "columns": [
           {
             "name": "REGION_NO",
-            "comment": "",
+            "comment": "지역번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -225,7 +202,7 @@
           },
           {
             "name": "REGION",
-            "comment": "",
+            "comment": "지역",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -249,9 +226,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 654.8475,
-          "top": 398.3053,
-          "zIndex": 247,
+          "left": 640.4024,
+          "top": 3.8613,
+          "zIndex": 345,
           "widthName": 60,
           "widthComment": 60
         },
@@ -260,11 +237,11 @@
       },
       {
         "name": "BUSINESS",
-        "comment": "",
+        "comment": "사업장",
         "columns": [
           {
             "name": "BUSINESS_NO",
-            "comment": "",
+            "comment": "사업번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -286,8 +263,31 @@
             "id": "d695ac93-9ba8-405e-8036-1adb5824c28e"
           },
           {
+            "name": "OWNER",
+            "comment": "사장",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f515bbdb-d197-463f-bab5-3350ebaf8b4f"
+          },
+          {
             "name": "BUSINESS_NAME",
-            "comment": "",
+            "comment": "사업장이름",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -302,7 +302,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 102.75634765625,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -310,7 +310,7 @@
           },
           {
             "name": "BUSINESS_TEL",
-            "comment": "",
+            "comment": "사업장연락처",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -325,7 +325,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 85.509765625,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -333,7 +333,7 @@
           },
           {
             "name": "BUSINESS_ADDRESS",
-            "comment": "",
+            "comment": "사업장주소",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -348,7 +348,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 121.58349609375,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -356,7 +356,7 @@
           },
           {
             "name": "OPENING_HOURS",
-            "comment": "",
+            "comment": "영업시간",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -380,9 +380,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 647.4301,
-          "top": 59.657,
-          "zIndex": 244,
+          "left": 649.6516,
+          "top": 326.323,
+          "zIndex": 356,
           "widthName": 60.07470703125,
           "widthComment": 60
         },
@@ -390,74 +390,12 @@
         "id": "d658cb8a-f41a-416f-a879-139ea6a04ac8"
       },
       {
-        "name": "SPONSOR",
-        "comment": "",
-        "columns": [
-          {
-            "name": "SPONSOR_NO",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 87.05859375,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "a16a8a23-ac23-47e9-b730-6566c5b01c5b"
-          },
-          {
-            "name": "NAME",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "a6eed10c-f35f-4921-a3c9-502d81c94abe"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 647.5097,
-          "top": 252.4076,
-          "zIndex": 245,
-          "widthName": 61.52197265625,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "aaab918d-3c56-4aca-b121-f7354da0dafc"
-      },
-      {
         "name": "OFFERED_TO",
-        "comment": "",
+        "comment": "제공대상",
         "columns": [
           {
             "name": "OFFERED_NO",
-            "comment": "",
+            "comment": "제공번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -480,7 +418,7 @@
           },
           {
             "name": "NO",
-            "comment": "",
+            "comment": "봉사번호",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -503,7 +441,7 @@
           },
           {
             "name": "OFFERED_CODE",
-            "comment": "",
+            "comment": "제공대상코드",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -518,7 +456,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 95.41845703125,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -527,9 +465,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 141.1034,
-          "top": 419.9042,
-          "zIndex": 253,
+          "left": 77.7707,
+          "top": 422.1264,
+          "zIndex": 320,
           "widthName": 77.61328125,
           "widthComment": 60
         },
@@ -538,11 +476,11 @@
       },
       {
         "name": "OFFERED_CODE",
-        "comment": "",
+        "comment": "제공대상코드",
         "columns": [
           {
             "name": "OFFERED_CODE",
-            "comment": "",
+            "comment": "제공대상코드",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -557,7 +495,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 95.41845703125,
-              "widthComment": 60,
+              "widthComment": 80,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -565,7 +503,7 @@
           },
           {
             "name": "OFFERED",
-            "comment": "",
+            "comment": "제공대상",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -591,9 +529,9 @@
           "active": false,
           "left": 62.6684,
           "top": 650.3526,
-          "zIndex": 252,
+          "zIndex": 322,
           "widthName": 95.41845703125,
-          "widthComment": 60
+          "widthComment": 80
         },
         "visible": true,
         "id": "6f1fae61-8eee-4cdf-ab08-0b40a9a0e1ab"
@@ -615,8 +553,8 @@
           "columnIds": [
             "48b65bbe-aed0-4fc7-8d6b-420991eccf17"
           ],
-          "x": 654.8475,
-          "y": 453.3053,
+          "x": 640.4024,
+          "y": 58.8613,
           "direction": "left"
         },
         "end": {
@@ -625,7 +563,7 @@
             "ffbf7cb4-c90f-4247-86e9-9eb26fa3d8e1"
           ],
           "x": 432.82080625,
-          "y": 285.1656,
+          "y": 168.04059999999998,
           "direction": "right"
         },
         "constraintName": "fk_region_to_influences",
@@ -641,8 +579,8 @@
           "columnIds": [
             "d695ac93-9ba8-405e-8036-1adb5824c28e"
           ],
-          "x": 647.4301,
-          "y": 145.40699999999998,
+          "x": 649.6516,
+          "y": 422.323,
           "direction": "left"
         },
         "end": {
@@ -651,7 +589,7 @@
             "3698f806-4356-44b3-a299-39a71521f06f"
           ],
           "x": 432.82080625,
-          "y": 157.16559999999998,
+          "y": 253.79059999999998,
           "direction": "right"
         },
         "constraintName": "fk_business_to_influences",
@@ -663,38 +601,12 @@
         "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "aaab918d-3c56-4aca-b121-f7354da0dafc",
-          "columnIds": [
-            "a16a8a23-ac23-47e9-b730-6566c5b01c5b"
-          ],
-          "x": 647.5097,
-          "y": 307.4076,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "8a9f1739-e766-450d-83ad-bb0a470eda5b",
-          "columnIds": [
-            "2de0f459-3e15-4159-8469-07e26f5809a9"
-          ],
-          "x": 432.82080625,
-          "y": 221.16559999999998,
-          "direction": "right"
-        },
-        "constraintName": "fk_sponsor_to_influences",
-        "visible": true,
-        "id": "8a0bee2d-8eb6-4604-a626-9573d0f5dac9"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneOnly",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "8a9f1739-e766-450d-83ad-bb0a470eda5b",
           "columnIds": [
             "e2fc0622-a57c-40e6-b240-a4f6bac3a264"
           ],
           "x": 243.912603125,
-          "y": 317.1656,
+          "y": 296.6656,
           "direction": "bottom"
         },
         "end": {
@@ -702,8 +614,8 @@
           "columnIds": [
             "804a647c-2fd9-44b6-a7d3-b29d10d7182c"
           ],
-          "x": 332.31262851562497,
-          "y": 419.9042,
+          "x": 278.97992851562503,
+          "y": 422.1264,
           "direction": "top"
         },
         "constraintName": "fk_influences_to_offered_to",
@@ -719,7 +631,7 @@
           "columnIds": [
             "af538a14-ead5-4670-92ba-e341a986564d"
           ],
-          "x": 253.877628515625,
+          "x": 263.877628515625,
           "y": 650.3526,
           "direction": "top"
         },
@@ -728,8 +640,8 @@
           "columnIds": [
             "32253a4b-6d5d-4cf0-899c-f17d725c58a3"
           ],
-          "x": 332.31262851562497,
-          "y": 550.4042,
+          "x": 278.97992851562503,
+          "y": 552.6264,
           "direction": "bottom"
         },
         "constraintName": "fk_offered_code_to_offered_to",
