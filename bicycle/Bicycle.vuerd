@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -5,
+    "scrollLeft": -9,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -94,7 +94,7 @@
           },
           {
             "name": "UNIQUE_PART",
-            "comment": "상위 부품 대표값",
+            "comment": "하위 부품 대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -120,7 +120,7 @@
           "active": false,
           "left": 125,
           "top": 132,
-          "zIndex": 35,
+          "zIndex": 12,
           "widthName": 60,
           "widthComment": 60
         },
